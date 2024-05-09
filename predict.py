@@ -38,6 +38,6 @@ def predict_flower(image_path):
     return predicted_class_label
 
 # Step 11: Provide an image path and get the prediction
-image_path = 'Sunflower_sky_backdrop.jpg'  # Provide the path to your image
+image_path = 'sky_backdrop.jpg'  # Provide the path to your image
 predicted_flower = predict_flower(image_path)
 print("Predicted Flower:", predicted_flower)
