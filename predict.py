@@ -25,7 +25,7 @@ validation_generator = train_datagen.flow_from_directory(
 
 model = load_model("flower_classifier_model.h5")
 
-# Step 10: Function to predict flower type from an image file
+
 def predict_flower(image_path):
     img = load_img(image_path, target_size=image_size)
     img_array = img_to_array(img) / 255.0
@@ -37,7 +37,7 @@ def predict_flower(image_path):
     predicted_class_label = class_labels[predicted_class]
     return predicted_class_label
 
-# Step 11: Provide an image path and get the prediction
-image_path = 'sky_backdrop.jpg'  # Provide the path to your image
+
+image_path = 'sky_backdrop.jpg'
 predicted_flower = predict_flower(image_path)
 print("Predicted Flower:", predicted_flower)
