@@ -13,3 +13,4 @@ After you have confirmed that flower_classifier_model.h5 does exist, open the pr
 Finally after you have completed the previous steps, run the predict.py file and you should get a prediction of what type of flower it is.
 
 NOTE: The database we used only has 5 species (Daisy, dandelion, rose, sunflower and tulip).
+We have also already downloaded 3 pictures which you can use for testing.
