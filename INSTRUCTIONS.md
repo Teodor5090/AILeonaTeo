@@ -3,8 +3,8 @@
 Instructions: 
 
 First you will need to install the needed packages for the app to run, you will need to write in the terminal:
-NPM install tensorflow
-NPM install pillow
+Pip install tensorflow
+Pip install pillow
 
 Next, if there is no file named "flower_classifier_model.h5" in the project then the first step is to run main.py to generate a model based on which the app will later on use to predict the flower species.
 
